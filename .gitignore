@@ -1,157 +1,129 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Landing Page</title>
-    <meta name="description" content="A modern, responsive landing page">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-</head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav">
-            <div class="nav-logo">
-                <h2>YourBrand</h2>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="nav-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
-    </header>
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Welcome to the Future</h1>
-            <p class="hero-subtitle">Create amazing experiences with our innovative solutions</p>
-            <div class="hero-buttons">
-                <button class="btn btn-primary">Get Started</button>
-                <button class="btn btn-secondary">Learn More</button>
-            </div>
-        </div>
-        <div class="hero-visual">
-            <div class="floating-card">
-                <i class="fas fa-rocket"></i>
-                <h3>Innovation</h3>
-            </div>
-        </div>
-    </section>
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Us</h2>
-            <div class="about-grid">
-                <div class="about-text">
-                    <h3>Building Tomorrow's Solutions Today</h3>
-                    <p>We are passionate about creating innovative solutions that make a difference. Our team combines creativity with technical expertise to deliver exceptional results.</p>
-                    <div class="stats">
-                        <div class="stat">
-                            <h4>100+</h4>
-                            <p>Projects Completed</p>
-                        </div>
-                        <div class="stat">
-                            <h4>50+</h4>
-                            <p>Happy Clients</p>
-                        </div>
-                        <div class="stat">
-                            <h4>5+</h4>
-                            <p>Years Experience</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-visual">
-                    <div class="feature-card">
-                        <i class="fas fa-lightbulb"></i>
-                        <h4>Creative Solutions</h4>
-                        <p>Innovative approaches to complex problems</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <h2 class="section-title">Our Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <i class="fas fa-code"></i>
-                    <h3>Web Development</h3>
-                    <p>Modern, responsive websites built with the latest technologies</p>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-mobile-alt"></i>
-                    <h3>Mobile Apps</h3>
-                    <p>Native and cross-platform mobile applications</p>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-paint-brush"></i>
-                    <h3>UI/UX Design</h3>
-                    <p>Beautiful, user-centered design experiences</p>
-                </div>
-            </div>
-        </div>
-    </section>
+# nyc test coverage
+.nyc_output
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Start a Conversation</h3>
-                    <p>Ready to bring your ideas to life? We'd love to hear from you!</p>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>hello@yourbrand.com</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <span>+1 (555) 123-4567</span>
-                    </div>
-                </div>
-                <form class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" rows="5" required></textarea>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
+# Grunt intermediate storage
+.grunt
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <h3>YourBrand</h3>
-                    <p>Building the future, one project at a time.</p>
-                </div>
-                <div class="footer-social">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 YourBrand. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+# Bower dependency directory
+bower_components
 
-    <script src="js/script.js"></script>
-</body>
-</html>
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Logs
+logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+
+# Build files
+*.min.js
+*.min.css
+
+# Sass cache
+.sass-cache/
+
+# PostCSS
+.postcss-cache/
+
+# webpack
+.webpack/
+
+# Parcel
+.parcel-cache/
