@@ -28,6 +28,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: url('../img/IMG-20250702-WA0072.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-blend-mode: luminosity;
 }
 
 /* Container */
